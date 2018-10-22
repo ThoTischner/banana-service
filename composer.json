@@ -1,0 +1,20 @@
+{
+  "name": "inanc/banana-service",
+  "version": "1.0.0",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "BananaService\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://service-api-dev.thomann.de:8001/composer"
+    }
+  ],
+  "config": {
+    "secure-http": false
+  }
+}
